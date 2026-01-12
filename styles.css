@@ -143,6 +143,25 @@ header {
   background-color: #6a89a7;
   padding-left: 30px;
 }
+.project:hover, .project:active {
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px -5px #000000;
+    transform: scale(1.05);
+}
+.view-project-link {
+  background-color: #88bdf2;
+  text-decoration: none;
+  color: black;
+  font-family: inherit;
+  border: solid ;
+  border-radius: 5px;
+  font-size: small;
+  padding: 0 10px;
+}
+.view-project-link:hover {
+  background-color: #6a89a7;
+  cursor: pointer;
+}
 
 .contact-container {
   margin-top: 50px;
