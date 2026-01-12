@@ -80,8 +80,8 @@ header {
   border: solid #384959;
   width: 100%;
   max-width: 95px;
-  font-size:small;
   text-align: center;
+  white-space: nowrap;
 }
 .header-button:hover {
   background-color: #6a89a7;
