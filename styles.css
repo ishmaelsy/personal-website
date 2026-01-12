@@ -82,6 +82,7 @@ header {
   max-width: 95px;
   text-align: center;
   white-space: nowrap;
+  flex-shrink: 0;
 }
 .header-button:hover {
   background-color: #6a89a7;
