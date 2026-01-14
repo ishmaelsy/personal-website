@@ -143,17 +143,18 @@ header {
   background-color: #6a89a7;
   padding-left: 30px;
 }
-.project:hover, .project:active {
-    border-radius: 5px;
-    box-shadow: 5px 5px 15px -5px #000000;
-    transform: scale(1.05);
+.project:hover,
+.project:active {
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px -5px #000000;
+  transform: scale(1.05);
 }
 .view-project-link {
   background-color: #88bdf2;
   text-decoration: none;
   color: black;
   font-family: inherit;
-  border: solid ;
+  border: solid;
   border-radius: 5px;
   font-size: small;
   padding: 0 10px;
@@ -281,4 +282,10 @@ footer {
   .contact-form {
     margin-right: 100px;
   }
+}
+
+#disabled {
+  pointer-events: none;
+  opacity: 0.6;
+  cursor: default;
 }
